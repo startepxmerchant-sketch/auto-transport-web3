@@ -14,15 +14,33 @@ export default function Hero() {
         <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto mb-12">
           <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
             <h3 className="text-2xl font-bold mb-4 uppercase">Auto</h3>
-            <div className="w-full h-40 bg-gray-700 rounded-xl flex items-center justify-center text-6xl">https://github.com/startepxmerchant-sketch/auto-transport-web3/blob/main/src/images/Image101.png?raw=true</div>
+            <div className="w-full h-40 bg-gray-700 rounded-xl overflow-hidden">
+              <img 
+                src="https://github.com/startepxmerchant-sketch/auto-transport-web3/blob/main/src/images/Image101.png?raw=true" 
+                alt="Auto Transport" 
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
           <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
             <h3 className="text-2xl font-bold mb-4 uppercase">Boat</h3>
-            <div className="w-full h-40 bg-gray-700 rounded-xl flex items-center justify-center text-6xl">⛵</div>
+            <div className="w-full h-40 bg-gray-700 rounded-xl overflow-hidden">
+              <img 
+                src="https://github.com/startepxmerchant-sketch/auto-transport-web3/blob/main/src/images/Image102.png?raw=true" 
+                alt="Boat Transport" 
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
           <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
             <h3 className="text-2xl font-bold mb-4 uppercase">Heavy Equipment</h3>
-            <div className="w-full h-40 bg-gray-700 rounded-xl flex items-center justify-center text-6xl">🚜</div>
+            <div className="w-full h-40 bg-gray-700 rounded-xl overflow-hidden">
+              <img 
+                src="https://github.com/startepxmerchant-sketch/auto-transport-web3/blob/main/src/images/Image103.png?raw=true" 
+                alt="Heavy Equipment Transport" 
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
         </div>
         <div className="bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent text-3xl font-bold uppercase mb-8 p-8 rounded-3xl border-4 border-red-500/50 backdrop-blur-sm">
