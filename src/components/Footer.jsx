@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           <div>
-            <h3 className="text-2xl font-black text-yellow-400 mb-6">AUTO<span className="text-orange-500">TRANSPORT</span></h3>
+            <h3 className="text-2xl font-black text-yellow-400 mb-6">KSP<span className="text-orange-500">WAY</span></h3>
             <p className="text-gray-300 mb-4">
               Nationwide auto, boat, and heavy equipment transport with Web3-powered transparency.
             </p>
@@ -65,7 +65,7 @@ export default function Footer() {
             <p className="text-2xl font-bold text-yellow-400">WE TRAVEL ALL ACROSS THE USA!</p>
           </div>
           <p className="text-gray-400 text-sm">
-            © 2025 AutoTransport Web3. All rights reserved. | Blockchain-powered logistics.
+            © 2025 KspWay A Ksp Enterprises Company. All rights reserved. | Blockchain-powered logistics.
           </p>
         </div>
       </div>
