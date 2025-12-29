@@ -41,4 +41,29 @@ const services = [
 
 export default function Services() {
   return (
-    <section className="py-20
+    <section id="services" className="py-20 px-4 bg-white/5">
+      <div className="max-w-7xl mx-auto">
+        <h2 className="text-5xl font-black text-center mb-16 bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
+          Our Services
+        </h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {services.map((service, idx) => (
+            <div key={idx} className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl border border-yellow-400/30 hover:border-yellow-400 transition-all hover:scale-105">
+              <service.icon className="w-16 h-16 text-yellow-400 mb-6" />
+              <h3 className="text-2xl font-bold mb-4">{service.title}</h3>
+              <p className="text-gray-300 mb-6">{service.description}</p>
+              <ul className="space-y-2">
+                {service.features.map((feature, i) => (
+                  <li key={i} className="flex items-start">
+                    <span className="text-orange-500 mr-2">✓</span>
+                    <span className="text-sm">{feature}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
