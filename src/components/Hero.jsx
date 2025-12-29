@@ -14,7 +14,7 @@ export default function Hero() {
         <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto mb-12">
           <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
             <h3 className="text-2xl font-bold mb-4 uppercase">Auto</h3>
-            <div className="w-full h-40 bg-gray-700 rounded-xl flex items-center justify-center text-6xl">🚗</div>
+            <div className="w-full h-40 bg-gray-700 rounded-xl flex items-center justify-center text-6xl">https://github.com/startepxmerchant-sketch/auto-transport-web3/blob/main/src/images/Image101.png?raw=true</div>
           </div>
           <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
             <h3 className="text-2xl font-bold mb-4 uppercase">Boat</h3>
