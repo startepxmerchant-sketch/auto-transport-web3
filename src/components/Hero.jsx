@@ -10,10 +10,7 @@ export default function Hero() {
           src="https://drive.google.com/file/d/1zKpQs0XmDuiNGMf-m3RNJpnRGEbTgelX/view?usp=sharing" 
           alt="Highway" 
           className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-blue-900/70" />
-        <div className="absolute inset-0 bg-gradient-to-r from-red-500/20 via-transparent to-red-500/20" />
-      </div>
+        /
       
       <div className="relative max-w-7xl mx-auto text-center">
         <h1 className="text-6xl md:text-8xl font-black uppercase tracking-wider mb-8 bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent drop-shadow-2xl">
