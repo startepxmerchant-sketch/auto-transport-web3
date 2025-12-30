@@ -14,7 +14,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center mb-6">
               <img
-                src="/images/logoksp.png"
+                src="/src/images/logoksp.png"
                 alt="KspWay Logo"
                 className="h-10 mr-3"
               />
