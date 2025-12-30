@@ -7,7 +7,7 @@ export default function Hero() {
       {/* Background with Highway Image */}
       <div className="absolute inset-0">
         <img 
-          src="https://images.unsplash.com/photo-1516738901171-8eb4fc13bd20?q=80&w=1920&auto=format&fit=crop" 
+          src="https://drive.google.com/file/d/1zKpQs0XmDuiNGMf-m3RNJpnRGEbTgelX/view?usp=sharing" 
           alt="Highway" 
           className="w-full h-full object-cover"
         />
