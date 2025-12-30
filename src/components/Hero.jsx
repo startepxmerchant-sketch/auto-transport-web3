@@ -1,5 +1,6 @@
 import { Button } from './ui/Button'
 import { Phone, MapPin } from 'lucide-react'
+import backgroundVideo from '../images/adpp.mp4'
 
 export default function Hero() {
   return (
@@ -13,7 +14,7 @@ export default function Hero() {
           playsInline
           className="w-full h-full object-cover"
         >
-          <source src="/src/images/adpp.mp4" type="video/mp4" />
+                    <source src={backgroundVideo} type="video/mp4" />
         </video>
       </div>
       
