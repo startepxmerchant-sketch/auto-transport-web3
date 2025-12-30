@@ -3,10 +3,16 @@ import { Phone, Mail, MapPin, Facebook, Twitter, Instagram } from 'lucide-react'
 export default function Footer() {
   return (
     <footer id="contact" className="bg-blue-950/80 border-t border-yellow-400/30 py-16 px-4">
-      <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-4 gap-12 mb-12">
-          <div>
-            <h3 className="text-2xl font-black text-yellow-400 mb-6">KSP<span className="text-orange-500">WAY</span></h3>
+      <div className="flex items-center mb-6">
+        <img
+          src="/images/logoksp.png"
+          alt="KspWay Logo"
+          className="h-10 mr-3"
+          />
+        <h3 className="text-2xl font-black text-yellow-400">
+          KSP<span className="text-orange-500">WAY</span>
+          </h3>
+        </div>
             <p className="text-gray-300 mb-4">
               Nationwide auto, boat, and heavy equipment transport with Web3-powered transparency.
             </p>
