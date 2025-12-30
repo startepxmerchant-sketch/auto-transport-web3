@@ -13,10 +13,10 @@ export default function Hero() {
           playsInline
           className="w-full h-full object-cover"
         >
-          <source src="https://drive.google.com/uc?export=download&id=1zKpQs0XmDuiNGMf-m3RNJpnRGEbTgelX" type="video/mp4" />
+          <source src="/src/images/adpp.mp4" type="video/mp4" />
         </video>
       </div>
-
+      
       <div className="relative max-w-7xl mx-auto text-center">
         <h1 className="text-6xl md:text-8xl font-black uppercase tracking-wider mb-8 bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent drop-shadow-2xl">
           Local & Long Distance Transport
