@@ -42,7 +42,7 @@ export default function Hero() {
           <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
             <h3 className="text-2xl font-bold mb-4 uppercase text-white">Heavy Equipment</h3>
             <img
-              src="https://images.unsplash.com/photo-1581094271901-8022df4466f9?q=80&w=400&auto=format&fit=crop"
+              src="https://github.com/startepxmerchant-sketch/auto-transport-web3/blob/main/src/images/caterpillar-truck-excavator-ct660.jpg?raw=true?q=80&w=400&auto=format&fit=crop"
               alt="Heavy Equipment Transport"
               className="w-full h-40 rounded-xl object-cover"
             />
