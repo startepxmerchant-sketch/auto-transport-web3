@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <iframe
           className="absolute inset-0 w-full h-full pointer-events-none"
-          src="https://youtu.be/UO0tUX3XWrE?autoplay=1&mute=1&loop=1&playlist=UO0tUX3XWrE&controls=0&showinfo=0&rel=0&modestbranding=1"
+          src="<iframe width="1394" height="784" src="https://www.youtube.com/embed/UO0tUX3XWrE" title="hero" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>"
           title="Background Video"
           frameBorder="0"
           allow="autoplay; encrypted-media"
