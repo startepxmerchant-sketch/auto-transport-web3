@@ -6,15 +6,7 @@ export default function Hero() {
     <section className="relative overflow-hidden pt-32 pb-20 px-4">
       {/* Background Video */}
       <div className="absolute inset-0">
-        <iframe
-          className="absolute inset-0 w-full h-full pointer-events-none"
-          src="<iframe width="1394" height="784" src="https://www.youtube.com/embed/UO0tUX3XWrE" title="hero" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>"
-          title="Background Video"
-          frameBorder="0"
-          allow="autoplay; encrypted-media"
-          style={{ objectFit: 'cover' }}
-        />
-      </div>
+                    <div className="absolute inset-0 bg-gradient-to-br from-blue-900 via-blue-800 to-slate-900" />
       
       <div className="relative max-w-7xl mx-auto text-center">
         <h1 className="text-6xl md:text-8xl font-black uppercase tracking-wider mb-8 bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent drop-shadow-2xl">
