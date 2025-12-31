@@ -14,8 +14,8 @@ export default function Hero() {
           title="Hero Background Video"
         />
         {/* Dark overlay for better text readability */}
-        <div className="absolute inset-0 bg-black/50" />
-        <div className="absolute inset-0 bg-gradient-to-r from-red-500/20 via-transparent to-red-500/20" />
+        <div className="absolute inset-0 bg-black/0" />
+        <div className="absolute inset-0 bg-gradient-to-r from-red-0/0 via-transparent to-red-0/0" />
       </div>
 
       {/* Content */}
