@@ -1,5 +1,5 @@
 import { Truck, Ship, Package, ShoppingCart, Gavel, ClipboardCheck } from 'lucide-react'
-import backgroundImage from '../images/caterpillar-truck-excavator-ct660.jpg'
+import backgroundImage from '../images/map.png'
 
 const services = [
   {
