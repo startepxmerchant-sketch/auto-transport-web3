@@ -1,21 +1,19 @@
 import { Button } from './ui/Button'
 import { Phone, MapPin } from 'lucide-react'
-import backgroundVideo from '../images/adpp.mp4'
 
 export default function Hero() {
   return (
     <section className="relative overflow-hidden pt-32 pb-20 px-4">
       {/* Background Video */}
       <div className="absolute inset-0">
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="w-full h-full object-cover"
-        >
-                    <source src={backgroundVideo} type="video/mp4" />
-        </video>
+        <iframe
+          className="absolute inset-0 w-full h-full pointer-events-none"
+          src="https://www.youtube.com/embed/RtBWrN2PT9M?autoplay=1&mute=1&loop=1&playlist=RtBWrN2PT9M&controls=0&showinfo=0&rel=0&modestbranding=1"
+          title="Background Video"
+          frameBorder="0"
+          allow="autoplay; encrypted-media"
+          style={{ objectFit: 'cover' }}
+        />
       </div>
       
       <div className="relative max-w-7xl mx-auto text-center">
