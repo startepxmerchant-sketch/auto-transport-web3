@@ -6,7 +6,15 @@ export default function Hero() {
     <section className="relative overflow-hidden pt-32 pb-20 px-4">
       {/* Background Video */}
       <div className="absolute inset-0">
-                    <div className="absolute inset-0 bg-gradient-to-br from-blue-900 via-blue-800 to-slate-900" />
+                          <div className="absolute inset-0 overflow-hidden">
+                                    <iframe
+                                                className="absolute top-1/2 left-1/2 w-[177.77vh] h-[56.25vw] min-h-full min-w-full -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+                                                src="https://www.youtube.com/embed/UO0tUX3XWrE?autoplay=1&mute=1&loop=1&playlist=UO0tUX3XWrE&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3&disablekb=1&fs=0"
+                                                title="Background Video"
+                                                frameBorder="0"
+                                                allow="autoplay; encrypted-media"
+                                              />
+                                  </div>
       
       <div className="relative max-w-7xl mx-auto text-center">
         <h1 className="text-6xl md:text-8xl font-black uppercase tracking-wider mb-8 bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent drop-shadow-2xl">
