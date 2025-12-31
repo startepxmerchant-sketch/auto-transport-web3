@@ -3,22 +3,19 @@ import { Phone, MapPin } from 'lucide-react'
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden pt-32 pb-20 px-4">
-      {/* Background Video */}
+    <section id="hero" className="relative overflow-hidden pt-32 pb-20 px-4">
       <div className="absolute inset-0">
-                                {/* Video Background - Using direct video element */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div 
-          className="absolute inset-0 bg-gradient-to-br from-blue-900 via-blue-800 to-slate-900"
-          style={{
-            backgroundImage: 'url(https://img.youtube.com/vi/UO0tUX3XWrE/maxresdefault.jpg)',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center'
-          }}
-        />
-        {/* Overlay for better text readability */}
-        <div className="absolute inset-0 bg-black/30" />
+        <div className="absolute inset-0 bg-gradient-to-r from-red-500/20 via-transparent to-red-500/20" />
       </div>
+      <div className="relative max-w-7xl mx-auto text-center">
+        <h1 className="text-6xl md:text-8xl font-black uppercase tracking-wider mb-8 bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent drop-shadow-2xl">
+          Local & Long Distance Transport
+        </h1>
+        <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto mb-12">
+          <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
+            <h3 className="text-2xl font-bold mb-4 uppercase">Auto</h3>
+            <div className="w-full h-40 bg-gray-700 rounded-xl flex items-center justify-center text-6xl">https://github.com/startepxmerchant-sketch/auto-transport-web3/blob/main/src/images/Image101.png?raw=true</div>
+          </div>
       
       <div className="relative max-w-7xl mx-auto text-center">
         <h1 className="text-6xl md:text-8xl font-black uppercase tracking-wider mb-8 bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent drop-shadow-2xl">
